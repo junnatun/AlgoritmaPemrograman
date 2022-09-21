@@ -17,8 +17,8 @@ public class Pola {
                     }
                 }
             }else {
-                for (int j=1; j<=n;j++){
-                    if (j>=i ||j<=(n+1)-i){
+                for (int k=1; k<=n;k++){
+                    if (k>=i || k<=(n+1)-i){
                         System.out.print("*");
                     }else {
                         System.out.print(" ");
