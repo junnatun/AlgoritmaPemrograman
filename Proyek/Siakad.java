@@ -319,10 +319,12 @@ public class Siakad {
         System.out.println("-------------------------------------------");
         System.out.print("\nMasukkan NIM baru : ");
         String nim = scan.next();
+        scan.nextLine();
         System.out.print("Masukkan nama baru : ");
-        String nama = scan.next();
+        String nama = scan.nextLine();
         System.out.println("Simpan perubahan?[Y/T]");
         String konf = scan.next();
+        
         if (konf.charAt(0) == 'Y' || konf.charAt(0) == 'y') {
             dataMahasiswa.get(data-1).setNim(nim);
             dataMahasiswa.get(data-1).setNama(nama);
